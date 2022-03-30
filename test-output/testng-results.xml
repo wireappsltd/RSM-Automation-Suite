@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="rsm automation" duration-ms="28902" started-at="2022-03-30T06:59:01Z" finished-at="2022-03-30T06:59:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28902" started-at="2022-03-30T06:59:01Z" finished-at="2022-03-30T06:59:30Z">
+      <class name="com.rsm.Test.TC_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="setup" is-config="true" duration-ms="3375" started-at="2022-03-30T12:29:01Z" finished-at="2022-03-30T12:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="Login" duration-ms="24437" started-at="2022-03-30T12:29:05Z" finished-at="2022-03-30T12:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-03-30T12:29:29Z" finished-at="2022-03-30T12:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-03-30T12:29:30Z" finished-at="2022-03-30T12:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rsm.Test.TC_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- rsm automation -->
+</testng-results>
