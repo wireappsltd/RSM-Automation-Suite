@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="rsm automation" duration-ms="28902" started-at="2022-03-30T06:59:01Z" finished-at="2022-03-30T06:59:30Z">
+  <suite name="rsm automation" duration-ms="86130" started-at="2022-04-12T05:45:56Z" finished-at="2022-04-12T05:47:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28902" started-at="2022-03-30T06:59:01Z" finished-at="2022-03-30T06:59:30Z">
-      <class name="com.rsm.Test.TC_Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="setup" is-config="true" duration-ms="3375" started-at="2022-03-30T12:29:01Z" finished-at="2022-03-30T12:29:05Z">
+    <test name="permits" duration-ms="86130" started-at="2022-04-12T05:45:56Z" finished-at="2022-04-12T05:47:22Z">
+      <class name="com.rsm.Test.TC_Permits">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.rsm.Test.TC_Permits@1e67a849]" name="setup" is-config="true" duration-ms="2027" started-at="2022-04-12T11:15:56Z" finished-at="2022-04-12T11:15:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="Login" duration-ms="24437" started-at="2022-03-30T12:29:05Z" finished-at="2022-03-30T12:29:29Z">
+        <test-method status="PASS" signature="rsmPermits()[pri:1, instance:com.rsm.Test.TC_Permits@1e67a849]" name="rsmPermits" duration-ms="54156" started-at="2022-04-12T11:15:58Z" finished-at="2022-04-12T11:16:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-03-30T12:29:29Z" finished-at="2022-03-30T12:29:30Z">
+        </test-method> <!-- rsmPermits -->
+        <test-method status="PASS" signature="rsmCheckPermission()[pri:2, instance:com.rsm.Test.TC_Permits@1e67a849]" name="rsmCheckPermission" duration-ms="29000" started-at="2022-04-12T11:16:52Z" finished-at="2022-04-12T11:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rsmCheckPermission -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rsm.Test.TC_Permits@1e67a849]" name="tearDown" is-config="true" duration-ms="737" started-at="2022-04-12T11:17:21Z" finished-at="2022-04-12T11:17:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rsm.Test.TC_Login@34ce8af7]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-03-30T12:29:30Z" finished-at="2022-03-30T12:29:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rsm.Test.TC_Login -->
-    </test> <!-- Test -->
+      </class> <!-- com.rsm.Test.TC_Permits -->
+    </test> <!-- permits -->
   </suite> <!-- rsm automation -->
 </testng-results>

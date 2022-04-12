@@ -43,5 +43,15 @@ public class ReadConfig {
 		String pw = pro.getProperty("Password");
 		return pw;
 	}
+	
+	public String getEmail2() {
+		String un = pro.getProperty("Email2");
+		return un;
+	}
+
+	public String getPassword2() {
+		String pw = pro.getProperty("Password2");
+		return pw;
+	}
 
 }
