@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [rsm automation]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [rsm automation]" parallel="none">
   <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="com.rsm.Utilities.Reporting"/>
   </listeners>
-  <test name="Test">
+  <test name="permits">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.rsm.Test.TC_Login"/>
+      <class name="com.rsm.Test.TC_Permits"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- permits -->
 </suite> <!-- Failed suite [rsm automation] -->

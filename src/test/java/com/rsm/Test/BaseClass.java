@@ -31,6 +31,8 @@ public class BaseClass {
 	public String RSMUrl = readconfig.getRSMUrl();
 	public String email = readconfig.getEmail();
 	public String password = readconfig.getPassword();
+	public String email2 = readconfig.getEmail2();
+	public String password2 = readconfig.getPassword2();
 	public static WebDriver driver;
 	public static Logger logger;
 
@@ -70,7 +72,6 @@ public class BaseClass {
 		PropertyConfigurator.configure("Log4j.properties");
 	}
 
-	@AfterMethod
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
