@@ -66,10 +66,9 @@ public class BaseClass {
 			
 		}
 		
-//		driver.get(RISEURL);
-//		logger.info("RISE Base URL opened");
 		logger = Logger.getLogger("RSM");
 		PropertyConfigurator.configure("Log4j.properties");
+		
 	}
 
 	@AfterClass

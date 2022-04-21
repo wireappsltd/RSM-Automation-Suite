@@ -47,9 +47,6 @@ public class TC_Permits extends BaseClass {
 		permits.clickOnSearch();
 		logger.info("Search button clicked");
 		
-		//permits.btnAllow();
-		//logger.info(permits.btnAllow());
-		
 		String status = permits.getStatus();
 		logger.info("Button Status : "+status);
 		
