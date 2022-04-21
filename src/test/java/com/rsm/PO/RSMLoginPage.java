@@ -41,7 +41,6 @@ WebDriver ldriver;
 	
 	public void clickOnLogin1() throws InterruptedException {
 		labelLogin.click();
-		Thread.sleep(3000);
 	}
 	
 	public boolean btnLogin() throws InterruptedException {
@@ -50,21 +49,17 @@ WebDriver ldriver;
 	
 	public void setEmail(String email) throws InterruptedException {
 		txtEmail.clear();
-		Thread.sleep(1000);
 		txtEmail.sendKeys(email);
-		//Thread.sleep(5000);
 	}
 	
 	public void setPassword(String password) throws InterruptedException {
 		txtPassword.clear();
-		Thread.sleep(1000);
 		txtPassword.sendKeys(password);
-		//Thread.sleep(3000);
 	}
 	
 	public void clickonLogin2() throws InterruptedException {
 		btnLogin.click();
-		Thread.sleep(10000);
+		//Thread.sleep(10000);
 	}
 	
 	public boolean btnHome() throws InterruptedException {

@@ -89,7 +89,7 @@ WebDriver ldriver;
 	
 	public void clickOnPermits() throws InterruptedException {
 		tabPermits.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean radioAllowEveryone() throws InterruptedException {
@@ -98,7 +98,7 @@ WebDriver ldriver;
 	
 	public void checkAllowEveryone() throws InterruptedException {
 		radioAllowEveryone.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean radioAllowCategories() throws InterruptedException {
@@ -107,17 +107,17 @@ WebDriver ldriver;
 	
 	public void checkAllowCategories() throws InterruptedException {
 		radioAllowCategories.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void checkRMSupplier() throws InterruptedException {
 		checkRMSupplier.click();
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 	}
 	
 	public void checkRMCustomer() throws InterruptedException {
 		checkRMCustomer.click();
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 	}
 	
 	public boolean radioAllowCompanies() throws InterruptedException {
@@ -126,7 +126,7 @@ WebDriver ldriver;
 	
 	public void checkAllowCompanies() throws InterruptedException {
 		radioAllowCompanies.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean txtCompanyName() throws InterruptedException {
@@ -135,14 +135,12 @@ WebDriver ldriver;
 	
 	public void setCompanyName(String comName) throws InterruptedException {
 		txtCompanyName.clear();
-		Thread.sleep(1000);
 		txtCompanyName.sendKeys(comName);
-		//Thread.sleep(5000);
 	}
 	
 	public void clickOnSearch() throws InterruptedException {
 		btnSearch.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean btnAllow() throws InterruptedException {
@@ -155,17 +153,17 @@ WebDriver ldriver;
 	
 	public void clickOnAllow() throws InterruptedException {
 		btnAllow.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void clickOnSave() throws InterruptedException {
 		btnSave.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void clickOnMyRawMaterials() throws InterruptedException {
 		tabMyRawMaterials.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean labelRawMaterial() throws InterruptedException {
@@ -178,24 +176,22 @@ WebDriver ldriver;
 	
 	public void clickOnLogout() throws InterruptedException {
 		btnLogout.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void clickOnSearchTab() throws InterruptedException {
 		tabSearch.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public void setMaterialName(String meterial) throws InterruptedException {
 		txtSearch.clear();
-		Thread.sleep(1000);
 		txtSearch.sendKeys(meterial);
-		//Thread.sleep(5000);
 	}
 	
 	public void clickOnResourceSearch() throws InterruptedException {
 		btnResourceSearch.click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	
 	public boolean labelMaterial() throws InterruptedException {
